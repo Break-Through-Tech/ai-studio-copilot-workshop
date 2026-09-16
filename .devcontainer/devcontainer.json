@@ -1,0 +1,13 @@
+{
+  "name": "copilot-workshop",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}
