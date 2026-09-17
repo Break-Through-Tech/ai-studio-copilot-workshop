@@ -10,7 +10,7 @@ environment that runs in your browser. No local installation required.
 2. Click the **Codespaces** tab.
 3. Click **Create codespace on main**.
 4. Wait for the codespace to finish building. 
-5. Ensure that Github Copilot is enabled. Click “Extensions” in the left panel, type in Github Copilot and ensure the “Github Copilot Chat” is enabled. Note: you may need to “Disable AI Features” then “Enable AI Features” in order to get it to start suggesting code
+5. Ensure that GitHub Copilot is enabled. Click “Extensions” in the left panel, type in GitHub Copilot and ensure the “GitHub Copilot Chat” is enabled. Note: you may need to “Disable AI Features” then “Enable AI Features” in order to get it to start suggesting code
 6. Open the `exercises` folder in the file explorer on the left.
 
 The editor you land in runs in your browser. It's a lightweight
