@@ -10,7 +10,7 @@ read every suggestion before you accept it.
   3. summary()             - return summary statistics for the DataFrame
 
 Once you have finished writing the methods using Copilot's Tab Completion, 
-run this file and determine analyze how well Copilot wrote this DataCleaner class.
+run this file and analyze how well Copilot wrote this DataCleaner class by answering the questions at the bottom of this file. 
 """
 
 import pandas as pd
