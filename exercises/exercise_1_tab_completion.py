@@ -6,9 +6,9 @@ describing what it should do and a `pass` placeholder instead of real
 code.
 
 For each function: delete the `pass` line, put your cursor there, and
-start typing. GitHub Copilot will offer a suggestion as gray "ghost
+start typing. Once GitHub Copilot is enabled, it will offer a suggestion as gray "ghost
 text." Press Tab to accept it, Esc to dismiss it, or keep typing your
-own version. Try all four before you move on.
+own version. Try all three.
 """
 
 
