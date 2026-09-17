@@ -21,11 +21,11 @@ class DataCleaner:
         self.df = dataframe
 
     def drop_missing(self):
-        # Drop rows with any missing values.
+        # Drop rows with any missing values, updating self.df in place.
         pass
 
     def drop_duplicate_rows(self):
-        # Remove duplicate rows.
+        # Remove duplicate rows, updating self.df in place.
         pass
 
     def summary(self):
@@ -34,9 +34,12 @@ class DataCleaner:
 
 
 if __name__ == "__main__":
-    df = pd.read_csv("sample_data.csv")
-    cleaner = DataCleaner(df)
+    df = pd.read_csv("sample_data.csv")  
+    cleaner = DataCleaner(df)  
+    cleaner.drop_missing()
+    cleaner.drop_duplicate_rows()
     print(cleaner.df)
+    print(cleaner.summary())
 
 
 
