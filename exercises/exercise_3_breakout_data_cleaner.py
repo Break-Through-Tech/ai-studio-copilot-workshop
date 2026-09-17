@@ -45,4 +45,7 @@ if __name__ == "__main__":
 # 2. What's one risk you want to watch for as you use it?
 # 3. What's one norm you want to commit to as a team for how you'll use it?
 
-# Optional extension: tell ask Github Copilot to write you a 
+# Optional extension (if you finish early): Use GitHub Copilot to write a new Python file that:
+#      1. Loads extension_clustering_data.csv
+#      2. Cleans it the same way your DataCleaner class does (drop missing values, drop duplicates)
+#      3. Fits a K-means model with 2 clusters on the age and score columns, using scikit-learn
