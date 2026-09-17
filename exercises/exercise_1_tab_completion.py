@@ -8,7 +8,7 @@ code.
 For each function: delete the `pass` line, put your cursor there, and
 start typing. Once GitHub Copilot is enabled, it will offer a suggestion as gray "ghost
 text." Press Tab to accept it, Esc to dismiss it, or keep typing your
-own version. Try all three.
+own version.
 """
 
 
