@@ -1,20 +1,16 @@
 """
 Exercise 3: Breakout activity, the DataCleaner class
 
-Work with a partner. You have a DataCleaner class that wraps a pandas
-DataFrame. Add three methods, using Copilot's suggestions to help, but
+Work together in a breakout room to fill in the missing methods. You have a DataCleaner class that wraps a pandas
+DataFrame. Add three methods, using Copilot's suggestions and Tab Completion to help, but
 read every suggestion before you accept it.
 
   1. drop_missing()        - drop rows with any missing values
   2. drop_duplicate_rows() - remove duplicate rows
   3. summary()             - return summary statistics for the DataFrame
 
-Requirement: accept at least two Copilot suggestions, reject at least
-one, and write one comment that improves a suggestion Copilot gave
-you.
-
-Before you finish: find one suggestion that was wrong or incomplete
-and fix it yourself. Be ready to explain what it got wrong.
+Once you have finished writing the methods using Copilot's Tab Completion, 
+run this file and determine analyze how well Copilot wrote this DataCleaner class.
 """
 
 import pandas as pd
@@ -41,3 +37,12 @@ if __name__ == "__main__":
     df = pd.read_csv("sample_data.csv")
     cleaner = DataCleaner(df)
     print(cleaner.df)
+
+
+
+# once you have finished writing and running the code, discuss the following questions:
+# 1. Where in your AI Studio project could Copilot genuinely save you time?
+# 2. What's one risk you want to watch for as you use it?
+# 3. What's one norm you want to commit to as a team for how you'll use it?
+
+# Optional extension: tell ask Github Copilot to write you a 
